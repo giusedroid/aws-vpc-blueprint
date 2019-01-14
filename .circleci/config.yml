@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/aws-vpc-blueprint
+    docker:
+      - image: circleci/python:3.7.1
+    
+    steps:
+      - checkout
+
+      - run:
+        name: Install dependencies
+        command: |
+          sudo pip install awscli
+
+      # - run:
+      #   name: Deploy VPC
+      #   command: |
+      #     make configure
+      #     make vpc
