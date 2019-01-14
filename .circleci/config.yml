@@ -12,8 +12,8 @@ jobs:
           name: Install dependencies
           command: sudo pip install awscli
 
-      # - run:
-      #   name: Deploy VPC
-      #   command: |
-      #     make configure
-      #     make vpc
+      - run:
+          name: Deploy VPC
+          command: |
+            make configure
+            make vpc
