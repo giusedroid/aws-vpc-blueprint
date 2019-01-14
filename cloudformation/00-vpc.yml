@@ -261,7 +261,7 @@ Resources:
   DefaultDataRoute2:
     Type: AWS::EC2::Route
     Properties:
-      RouteTableId: !Ref DataeRouteTable2
+      RouteTableId: !Ref DataRouteTable2
       DestinationCidrBlock: 0.0.0.0/0
       NatGatewayId: !Ref NatGateway2
 
