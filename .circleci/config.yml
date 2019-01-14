@@ -8,9 +8,9 @@ jobs:
     steps:
       - checkout
 
-      - run:
-        name: Install dependencies
-        command: sudo pip install awscli
+      - run: 
+          name: Install dependencies
+          command: sudo pip install awscli
 
       # - run:
       #   name: Deploy VPC
