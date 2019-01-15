@@ -1,7 +1,7 @@
 ifeq ($(CIRCLE_BRANCH), master)
 	DEPLOY_ENV=stable
 else
-	DEPLOY_ENV=$(CIRCLE_BRANCH)
+	DEPLOY_ENV=unstable
 endif
 
 vpc:
