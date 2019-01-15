@@ -1,6 +1,9 @@
 # aws-vpc-blueprint
 
+[![CircleCI](https://circleci.com/gh/giusedroid/aws-vpc-blueprint.svg?style=svg)](https://circleci.com/gh/giusedroid/aws-vpc-blueprint)
+
 Need a VPC in AWS? There you go.  
+
 
 ## Description
 
