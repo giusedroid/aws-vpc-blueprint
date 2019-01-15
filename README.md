@@ -4,7 +4,6 @@
 
 Need a VPC in AWS? There you go.  
 
-
 ## Description
 
 This template deploys a VPC, with 2 public, 2 private and 2 data (private) subnets spread across two Availability Zones.  
